@@ -46,6 +46,18 @@ public:
 
 ///////////////////////////////////////////
 
+class Four_in_a_row_X_O_Board:public Board {
+public:
+    Four_in_a_row_X_O_Board ();
+    bool update_board (int x, int y, char mark);
+    void display_board();
+    bool is_winner();
+    bool is_draw();
+    bool game_is_over();
+};
+
+///////////////////////////////////////////
+
 // This class represents a 3 x 3 board
 // used in X_O game
 class X_O_Board:public Board {
@@ -83,6 +95,14 @@ class Player {
 };
 
 ///////////////////////////////////////////
+
+class new_player : public Player {
+    public:
+        new_player(int order , char symbol) : Player( order , symbol ){}
+        void get_move(int& x, int& y);
+};
+///////////////////////////////////////////
+
 // This class represents a random computer player
 // that generates random positions x y (0 to 2)
 // If invalid, game manager asks to regenerate
