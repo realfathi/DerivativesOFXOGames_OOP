@@ -47,8 +47,6 @@ void TicTacToe5x5::display_board() {
         cout << "\n-----------------------------------------";
     }
     cout << endl;
-    cout << "Moves : " << n_moves << " \n==================\n" ;
-    cout << " X : " << count_x << " O : " << count_o << "\n============\n" ;
 }
 
 // Returns true if there is any winner
@@ -57,7 +55,7 @@ void TicTacToe5x5::display_board() {
 
 bool TicTacToe5x5::is_winner() {
 
-    if (n_moves > 24){
+    if (n_moves >= 24){
         //count 3 in a row horizontally
         for (int i = 0; i < 5; ++i) {
             for (int j = 0; j < 3; ++j) {
@@ -115,6 +113,6 @@ bool TicTacToe5x5::is_draw() {
 }
 
 bool TicTacToe5x5::game_is_over () {
-    return n_moves > 24 ;
+    return n_moves >= 24 ;
 }
 
