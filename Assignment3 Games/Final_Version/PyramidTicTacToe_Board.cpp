@@ -3,7 +3,6 @@
  Author: Muhammad Ahmed Fathi
  Date: 7/12/2023
  Version: 1
-
  */
 #include <iostream>
 #include <random>
@@ -55,7 +54,7 @@ void pyramidTicTacToe::display_board() {
               cout << setw(2) << board [i][j] << "|";}
           else cout<<"        ";
       }
-      cout << "\n------------------------------------------------";
+      cout << "\n----------------------------------------";
    }
    cout << endl;
 }

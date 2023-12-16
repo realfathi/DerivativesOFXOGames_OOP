@@ -1,8 +1,10 @@
-// Class definition for XO_RandomPlayer class
-// Which is a computer player playing randomly
-// Author:  Mohammad El-Ramly
-// Date:    10/10/2022
-// Version: 1
+/*
+Purpose: Random player if player wanted to play against computer
+Authors: Mohamed Gamal Ali (20220284)--Muhammad Ahmed Fathi (20220280)--Osama Moheb Shafik(20220446)
+Date: 14/12/2023
+Version: 1.5
+*/
+
 #include<iostream>
 #include<random>
 #include<algorithm>

@@ -1,7 +1,9 @@
-// Class definition for XO_GameManager class
-// Author:  Mohammad El-Ramly
-// Date:    10/10/2022
-// Version: 1
+/*
+Purpose: Manging game moves and result
+Authors: Mohamed Gamal Ali (20220284)--Muhammad Ahmed Fathi (20220280)--Osama Moheb Shafik (20220446)
+Date: 14/12/2023
+Version: 1.2
+*/
 
 #include <iostream>
 #include"../include/BoardGame_Classes.hpp"
