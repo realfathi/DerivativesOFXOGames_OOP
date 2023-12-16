@@ -95,7 +95,7 @@ bool TicTacToe5x5::is_winner() {
         }
     }
     if (count_x>count_o) {
-        n_moves++;
+        n_moves++; //to make game over and don't go inside the loop in the game manager (prevent from update board then)
         cout<<"X wins\n";
     }
     else if(count_o>count_x) {
@@ -109,7 +109,7 @@ bool TicTacToe5x5::is_winner() {
 // Return true if 24 moves are done and no winner
 bool TicTacToe5x5::is_draw() {
     if (count_x==count_o&&n_moves==24){
-        n_moves++;
+        n_moves++; //to make game over and don't go inside the loop in the game manager (prevent from update board then)
         cout<<"Draw!\n";
     }
     return false;
