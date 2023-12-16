@@ -44,7 +44,7 @@ void pyramidTicTacToe_Game(){
         players[1] = new Player (2, 'o');
     else
         //Player pointer points to child
-        players[1] = new RandomPlayer ('o', 3);
+        players[1] = new New_RandomPlayer ('o', 3);
 
     GameManager PyramidTicTacToe (new pyramidTicTacToe(), players);
     PyramidTicTacToe.run();

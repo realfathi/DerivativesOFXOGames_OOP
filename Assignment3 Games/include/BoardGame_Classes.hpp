@@ -1,8 +1,11 @@
-// Class definition for XO game classes
-// Authors:  Mohammad El-Ramly - Muhammad Ahmed Fathi
-// ID:                         -      20220280       -
-// Date:   7/12/2023
-// Version: 1.1
+/*
+Purpose: Menu for games we created
+Authors: Mohamed Gamal Ali (20220284)--Muhammad Ahmed Fathi (20220280)--Osama Moheb Shafik(20220446)--Dr.Mohammad El-Ramly
+Date: 14/12/2023
+Version: 1.5
+Section:20
+
+*/
 #ifndef _BoardGame_CLASSES_H
 #define _BoardGame_CLASSES_H
 #include <Vector>
@@ -121,15 +124,15 @@ public:
     new_player(int order , char symbol) : Player( order , symbol ){}
     void get_move(int& x, int& y);
 };
-///////////////////////////////////////////
-
 // This class represents a random computer player
 // that generates random positions x y (0 to 2)
 // If invalid, game manager asks to regenerate
+
+///////////////////////////////////////////
 class RandomPlayer: public Player {
 protected:
     int dimension;
-    vector<pair<int, int>> validMoves;
+
 public:
     // Take a symbol and pass it to parent
     RandomPlayer (char symbol, int dimension);
@@ -138,6 +141,18 @@ public:
 };
 
 ///////////////////////////////////////////
+class New_RandomPlayer: public Player {
+    int dimension;
+    vector<pair<int, int>> validMoves;
+public:
+    // Take a symbol and pass it to parent
+    New_RandomPlayer (char symbol, int dimension);
+    // Generate a random move
+    void get_move(int& x, int& y);
+};
+
+//////////////////////////////////////////
+
 class GameManager {
 private:
     Board* boardPtr;

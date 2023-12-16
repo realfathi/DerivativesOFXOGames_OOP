@@ -19,9 +19,22 @@ RandomPlayer::RandomPlayer (char symbol, int dimension):Player(symbol)
     cout << "My names is " << name << endl;
 
 }
+New_RandomPlayer::New_RandomPlayer (char symbol, int dimension):Player(symbol){
+    this->dimension = dimension;
+    this->name = "Random Computer Player";
+    cout << "My names is " << name << endl;
+
+}
 
 // Generate a random move
+
+
 void RandomPlayer::get_move (int& x, int& y) {
+    x = (int) (rand()/(RAND_MAX + 1.0) * dimension);
+    y = (int) (rand()/(RAND_MAX + 1.0) * dimension);
+}
+
+void New_RandomPlayer::get_move (int& x, int& y) {
     validMoves = {
             {0, 2}, {1, 1}, {1, 2}, {1, 3}, {2, 0},
             {2, 1}, {2, 2}, {2, 3}, {2, 4}
@@ -30,3 +43,4 @@ void RandomPlayer::get_move (int& x, int& y) {
     x = validMoves[randomIndex].first;;
     y = validMoves[randomIndex].second;
 }
+
