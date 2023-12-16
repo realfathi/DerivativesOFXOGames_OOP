@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\CS213-2023-2024-Assignment3-V1.0\XO_OOP_wRandom\PyramidTicTacToe_Src -BE:\CS213-2023-2024-Assignment3-V1.0\XO_OOP_wRandom\PyramidTicTacToe_Src\cmake-build-debug
+  command = "C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SE:\GitHub\OOP_AS3_Games\PyramidTicTacToe_Src -BE:\GitHub\OOP_AS3_Games\PyramidTicTacToe_Src\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

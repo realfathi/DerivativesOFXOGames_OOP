@@ -1,3 +1,3 @@
-E:/CS213-2023-2024-Assignment3-V1.0/XO_OOP_wRandom/PyramidTicTacToe_Src/cmake-build-debug/CMakeFiles/PyramidTicTacToe_Src.dir
-E:/CS213-2023-2024-Assignment3-V1.0/XO_OOP_wRandom/PyramidTicTacToe_Src/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/CS213-2023-2024-Assignment3-V1.0/XO_OOP_wRandom/PyramidTicTacToe_Src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/GitHub/OOP_AS3_Games/PyramidTicTacToe_Src/cmake-build-debug/CMakeFiles/PyramidTicTacToe_Src.dir
+E:/GitHub/OOP_AS3_Games/PyramidTicTacToe_Src/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/GitHub/OOP_AS3_Games/PyramidTicTacToe_Src/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,4 @@
-# Install script for directory: E:/CS213-2023-2024-Assignment3-V1.0/XO_OOP_wRandom/PyramidTicTacToe_Src
+# Install script for directory: E:/GitHub/OOP_AS3_Games/PyramidTicTacToe_Src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/CS213-2023-2024-Assignment3-V1.0/XO_OOP_wRandom/PyramidTicTacToe_Src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/GitHub/OOP_AS3_Games/PyramidTicTacToe_Src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
