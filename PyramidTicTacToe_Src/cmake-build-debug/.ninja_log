@@ -1,0 +1,12 @@
+# ninja log v5
+13	386	7242482418902592	CMakeFiles/PyramidTicTacToe_Src.dir/PyramidTicTacToe_App.cpp.obj	559f59caa0868bfa
+6	391	7242482418952603	CMakeFiles/PyramidTicTacToe_Src.dir/GameManager.cpp.obj	7448bffe4843e499
+0	581	7242482420833031	CMakeFiles/PyramidTicTacToe_Src.dir/Player.cpp.obj	da135abeb4b37fb0
+9	639	7242482421423163	CMakeFiles/PyramidTicTacToe_Src.dir/PyramidTicTacToe_Board.cpp.obj	79ab3c368c321588
+17	687	7242482421903268	CMakeFiles/PyramidTicTacToe_Src.dir/RandomPlayer.cpp.obj	e0e78ff342bed71
+687	826	7242482423283580	PyramidTicTacToe_Src.exe	8e2e8ecf2a256b9c
+3	444	7242482691255383	CMakeFiles/PyramidTicTacToe_Src.dir/Player.cpp.obj	da135abeb4b37fb0
+444	538	7242482692175584	PyramidTicTacToe_Src.exe	8e2e8ecf2a256b9c
+3	599	7243451832621417	CMakeFiles/PyramidTicTacToe_Src.dir/Player.cpp.obj	da135abeb4b37fb0
+14	617	7243451832811456	CMakeFiles/PyramidTicTacToe_Src.dir/RandomPlayer.cpp.obj	e0e78ff342bed71
+618	861	7243451835214009	PyramidTicTacToe_Src.exe	8e2e8ecf2a256b9c
