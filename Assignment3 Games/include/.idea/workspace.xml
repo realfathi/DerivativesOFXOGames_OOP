@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d8afb55-8a04-49ab-a126-8192d8292b50" name="Changes" comment="adjusting random player">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Version/Game_Welcome_Menu .h" beforeDir="false" afterPath="$PROJECT_DIR$/../Final_Version/Game_Welcome_Menu .h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Version/Player.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Final_Version/Player.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Version/PyramidTicTacToe_Board.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Final_Version/PyramidTicTacToe_Board.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Version/RandomPlayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Final_Version/RandomPlayer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final_Version/X_O_App.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BoardGame_Classes.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/BoardGame_Classes.hpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.3" />
+  </component>
+  <component name="ProjectId" id="2ZcfaAXkb9TWd5ONyAwlBRapb0A" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d8afb55-8a04-49ab-a126-8192d8292b50" name="Changes" comment="" />
+      <created>1702726349026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702726349026</updated>
+      <workItem from="1702726490004" duration="21000" />
+      <workItem from="1702726527794" duration="59000" />
+      <workItem from="1702726975421" duration="173000" />
+      <workItem from="1702727264826" duration="28000" />
+      <workItem from="1702727410813" duration="723000" />
+      <workItem from="1702728397181" duration="865000" />
+      <workItem from="1702729607011" duration="25000" />
+      <workItem from="1702731379088" duration="210000" />
+      <workItem from="1702812579016" duration="103000" />
+      <workItem from="1702812703885" duration="11000" />
+    </task>
+    <task id="LOCAL-00001" summary="adjusting random player">
+      <created>1702729626487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702729626487</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adjusting random player" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjusting random player" />
+  </component>
+</project>

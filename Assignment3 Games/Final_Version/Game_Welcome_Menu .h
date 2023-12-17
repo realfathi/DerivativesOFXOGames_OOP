@@ -15,7 +15,7 @@ void Four_in_a_row_X_O_Game(){
     int choice;
     Player* players[2];
     players[0] = new new_player (1, 'x');
-    cout << "Welcome to FCAI Four_in_a_row_X_O Game. :)\n";
+    cout << "Welcome to FCAI Four in a row X_O Game. :)\n";
     cout << "Press 1 if you want to play with computer: ";
     cin >> choice;
     if (choice != 1)
@@ -43,7 +43,7 @@ void pyramidTicTacToe_Game(){
         players[1] = new Player (2, 'o');
     else
         //Player pointer points to child
-        players[1] = new RandomPlayer ('o', 3);
+        players[1] = new New_RandomPlayer ('o', 3);
 
     GameManager PyramidTicTacToe (new pyramidTicTacToe(), players);
     PyramidTicTacToe.run();

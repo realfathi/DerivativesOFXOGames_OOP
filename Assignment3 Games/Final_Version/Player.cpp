@@ -1,7 +1,11 @@
-// Class definition for XO_Player class
-// Author:  Mohammad El-Ramly
-// Date:    10/10/2022
-// Version: 1
+/*
+Purpose: creating player
+Authors: Mohamed Gamal Ali (20220284)--Muhammad Ahmed Fathi (20220280)--Osama Moheb Shafik(20220446)
+Date: 14/12/2023
+Version: 1.5
+Section:20
+TA: Mohamed Talaat
+*/
 #include<iostream>
 #include<random>
 #include"../include/BoardGame_Classes.hpp"
@@ -27,7 +31,7 @@ Player::Player (int order, char symbol) {
 // Get desired move: x y (each between 0 and 2)
 // Virtual (can change for other player types)
 void Player::get_move (int& x, int& y) {
-    cout << "\nPlease enter your move x and y \"\"'(x , y)'\"\" separated by spaces And make sure it's valid: \" ";
+    cout <<"\nPlease enter your move x and y \"x  y\" separated by spaces And make sure it's valid:  ";
     cin >> x >> y;
 }
 

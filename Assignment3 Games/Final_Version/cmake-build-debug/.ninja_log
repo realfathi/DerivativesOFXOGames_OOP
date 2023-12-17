@@ -1,0 +1,14 @@
+# ninja log v5
+5	401	7245161104055261	CMakeFiles/Final_Version.dir/GameManager.cpp.obj	5d282c80c267f37b
+1	425	7245161104305314	CMakeFiles/Final_Version.dir/Four_in_row_X_O_Board.cpp.obj	c04923a3bb3506e2
+8	431	7245161104355325	CMakeFiles/Final_Version.dir/Menu.cpp.obj	9bd2b14f6e20be78
+11	484	7245161104895447	CMakeFiles/Final_Version.dir/Player.cpp.obj	2bdc0a7e195240d
+19	554	7245161105595613	CMakeFiles/Final_Version.dir/RandomPlayer.cpp.obj	3297d309e77f0f5f
+27	584	7245161105905673	CMakeFiles/Final_Version.dir/X_O_Board.cpp.obj	f42437875e6f6ea6
+15	607	7245161106125741	CMakeFiles/Final_Version.dir/PyramidTicTacToe_Board.cpp.obj	b6a91254b189fe8c
+23	626	7245161106325764	CMakeFiles/Final_Version.dir/TicTacToe5x5_Board.cpp.obj	a3f461b3b190b148
+627	712	7245161107145947	Final_Version.exe	ec0c62f38befbaa5
+2	303	7245164257379035	CMakeFiles/Final_Version.dir/Menu.cpp.obj	9bd2b14f6e20be78
+6	347	7245164257809132	CMakeFiles/Final_Version.dir/Player.cpp.obj	2bdc0a7e195240d
+8	422	7245164258559303	CMakeFiles/Final_Version.dir/PyramidTicTacToe_Board.cpp.obj	b6a91254b189fe8c
+423	509	7245164259409494	Final_Version.exe	ec0c62f38befbaa5

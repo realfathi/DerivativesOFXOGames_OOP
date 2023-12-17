@@ -111,7 +111,7 @@ public:
 };
 
 ///////////////////////////////////////////
-////! to implement Fout_in_row_X_O_Game ////
+////! to implement Four_in_row_X_O_Game ////
 class new_player : public Player {
 public:
     new_player(int order , char symbol) : Player( order , symbol ){}
@@ -125,10 +125,24 @@ public:
 class RandomPlayer: public Player {
 protected:
     int dimension;
-    vector<pair<int, int>> validMoves;
 public:
     // Take a symbol and pass it to parent
     RandomPlayer (char symbol, int dimension);
+    // Generate a random move
+    void get_move(int& x, int& y);
+};
+
+///////////////////////////////////////////
+////! for Pyramid Tic Tac Toe  ///////////
+// This class represents a random computer player
+// If invalid, game manager asks to regenerate
+class New_RandomPlayer: public Player {
+protected:
+    int dimension;
+    vector<pair<int, int>> validMoves;
+public:
+    // Take a symbol and pass it to parent
+    New_RandomPlayer (char symbol, int dimension);
     // Generate a random move
     void get_move(int& x, int& y);
 };

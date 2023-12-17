@@ -65,6 +65,7 @@ void pyramidTicTacToe::display_board() {
 
 bool pyramidTicTacToe::is_winner() {
     char row_win[4], col_win[3], diag_win[2];
+
     diag_win[0] = board[1][3] & board[0][2] & board[2][4];
     diag_win[1] = board[1][1] & board[0][2] & board[2][0];
 
@@ -75,11 +76,11 @@ bool pyramidTicTacToe::is_winner() {
 
     col_win[2] = board[0][2] & board[1][2] & board[2][2];
 
-        if ( (row_win[0] && (row_win[0] == board[1][1])) ||
-                (row_win[1] && (row_win[1] == board[2][0])) ||
-                 (row_win[2] && (row_win[2] == board[2][1])) ||
-                  (row_win[3] && (row_win[3] == board[2][2])) )
-            {return true;}
+    if ((row_win[0] && (row_win[0] == board[1][1])) ||
+        (row_win[1] && (row_win[1] == board[2][0])) ||
+        (row_win[2] && (row_win[2] == board[2][1])) ||
+        (row_win[3] && (row_win[3] == board[2][2])) )
+    {return true;}
 
     if (col_win[2] && (col_win[2] == board[0][2]) )
     {return true;}
